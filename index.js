@@ -6,8 +6,9 @@ function takeANumber (katzDeliLine, name) {
   return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line.";
 }
 
-
-console.log(takeANumber(katzDeliLine, counter))
+console.log(takeANumber(katzDeliLine, counter));
+console.log(takeANumber(katzDeliLine, counter));
+console.log(takeANumber(katzDeliLine, counter));
 function nowServing (katzDeliLine) {
   if (katzDeliLine.length>0) {
     var nowserving =   katzDeliLine.splice(0,1);
